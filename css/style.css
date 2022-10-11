@@ -9,3 +9,25 @@ body{
 .icone {
     height: 6rem;
 }
+
+#blockquote-bg {
+    background-image: url(../img/bg-quote.jpg);
+    background-size: cover;
+    max-height: 100%;
+}
+
+@media (max-width: 768px){
+    .citacao-font {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding-top: 0;
+    }
+
+    .fixed-top {
+        position: relative;
+    }
+}
