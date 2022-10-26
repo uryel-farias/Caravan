@@ -27,6 +27,15 @@ body{
     color: white;
 }
 
+.divisor-de-itens li + li {
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.divisor-de-itens li {
+    padding: 1rem;
+
+}
+
 @media (max-width: 768px){
     .citacao-font {
         font-size: 3rem;
